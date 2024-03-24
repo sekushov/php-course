@@ -1,0 +1,9 @@
+ServerSignature Off
+# кодировка
+AddDefaultCharset UTF-8
+
+# переадресация на свою страницу ошибки
+ErrorDocument 404 /error.php
+
+# Красивый адрес в строке, переадресация с /reg.php на /reg
+# RewriteRule ^reg?$ reg.php [NC, L]
